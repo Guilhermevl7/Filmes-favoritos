@@ -25,7 +25,6 @@ export default function About() {
           <h1>{state.nome}</h1>
           <h4>{state.ano}</h4>
           <p>{state.sinopse}</p>
-          <p>{state.notas}</p>
           <Button onClick={() => navigate("/")}>Voltar</Button> 
         </div>
       </Container>   
